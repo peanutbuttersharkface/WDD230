@@ -13,17 +13,43 @@ header, main, footer {
     margin: 0 auto;
 }
 
+main {
+    align-items: center;
+    border-style: none none solid none;
+    
+}
+h2 {
+    color:black;
+    text-shadow: 5px 5px 10px black;
+    border-style: none none solid none;
+}
 header {
     margin: 1rem;
     border: 1px solid rgb(52, 79, 212);
-    padding: .5rem;
-    background-color: rgb(173, 170, 170);
+    padding: 20px;
+    background-color: rgb(102, 131, 201);
     display: grid;
-    grid-template-columns: 200px 1fr;
+    grid-template-columns: 200px 1fr 1fr;
     align-items: center;
+    box-shadow: 0 0 20px #777;
+    color: white;  
+    border-radius: 10px;
+         
 }
 
 header img {
-    width: 100%;
+    width: 50%;
     height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    margin: 1rem;
+    border: 1px solid rgb(52, 79, 212);
+    padding: .5rem;
+    background-color: rgb(102, 131, 201);
+    align-items: center;
+    box-shadow: 0 0 20px #777;
+    color: white;
+    border-radius: 10px;
 }
