@@ -24,7 +24,7 @@ h1{
 
 }
 h2 {
-    font-size: 1 rem
+    font-size: 1 rem;
     color:black;
     text-shadow: 5px 5px 10px black;
     border-style: none none solid none;
@@ -39,14 +39,13 @@ header {
     align-items: center;
     box-shadow: 0 0 20px #777;
     color: white;  
-    border-radius: 10px;
-         
+    
+    text-align:center;     
 }
 
 header img {
-    width: 50%;
+    width: 200px;
     height: auto;
-    border-radius: 10px;
 }
 
 footer {
@@ -57,5 +56,6 @@ footer {
     align-items: center;
     box-shadow: 0 0 20px #777;
     color: white;
-    border-radius: 10px;
+    
+    text-align: center;
 }
