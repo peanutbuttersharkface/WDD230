@@ -30,6 +30,7 @@
   
   main {
     display: block;
+    font-family: 'Roboto Slab', serif;
   }
   
   /**
@@ -40,7 +41,7 @@
   h1 {
     font-size: 2em;
     margin: 0.67em 0;
-    font-family: 'Roboto Slab', serif;
+    
   }
   
   /* Grouping content
