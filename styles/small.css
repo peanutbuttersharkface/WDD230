@@ -32,7 +32,7 @@ h2 {
 header {
     margin: 1rem;
     padding: 20px;
-    background-color: rgb(102, 131, 201);
+    background-color: rgb(14, 29, 64);
     display: grid;
     grid-template-columns: 200px 1fr 1fr;
     align-items: center; 
@@ -48,7 +48,7 @@ header img {
 footer {
     margin: 1rem;
     padding: .5rem;
-    background-color: rgb(102, 131, 201);
+    background-color: rgb(14, 29, 64);
     align-items: center;
     color: white;
     text-align: center;
