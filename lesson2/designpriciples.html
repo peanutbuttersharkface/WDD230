@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="http://127.0.0.1:5500/wdd230/lesson2/styles/normalize.css?_cacheOverride=1673639994674">
+        <link rel="stylesheet" href="styles/normalize.css">
     </head>
     <body>
         <header>
@@ -53,12 +53,13 @@
             </section>
         </main>
         <footer>
-            <h3>&copy; 2023 .:|:. Alicia Thompson .:|:. Idaho</h3> 
+            <h3>&copy; 2023 | Alicia Thompson |</h3> 
             <p id="demo"></p>
     
             <script>
-            const d = new Date();
-            document.getElementById("demo").innerHTML = d;
+                let text = document.lastModified;
+                document.getElementById("demo").innerHTML = text;
+            
             </script>
                
             
