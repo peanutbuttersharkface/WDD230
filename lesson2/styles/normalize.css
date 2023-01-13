@@ -1,0 +1,110 @@
+header{
+    text-align: center;
+    color:white;
+    background-color: rgb(14, 29, 64);
+    margin: -1.3rem -1.3rem 1rem -1.3rem;
+    border-radius: 25px 25px 0px 0px;
+    padding: 10px 20px 10px 20px;
+   
+}
+
+
+body {
+	font-size: 16px;
+	font-family: "Sansita", Ubuntu, sans-serif;
+}
+/* phone or baseline views **************************/
+main {
+	max-width: 767px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr;
+	font-size: 0.8rem;
+}
+
+
+
+main section {
+	margin: 0.5rem;
+	border: 1px solid #bbb;
+	background-color: #eee;
+    border-radius: 25px;
+    padding: 20px;
+    
+  
+}
+
+main section h2 {
+    text-align: left;
+    font-size: 16px;
+	color: White;
+    background-color: rgb(14, 29, 64);
+    margin: -1.3rem -1.3rem 1rem -1.3rem;
+    border-radius: 25px 25px 0px 0px;
+    padding: 10px 20px 10px 20px;
+   
+}
+
+
+
+main section:nth-child(2) {
+	display: none;
+	margin: 0.5rem;
+}
+
+.colimage {
+	
+}
+
+/* Tablet Views ******************************/
+@media only screen and (min-width: 37.5em) {
+	main {
+		grid-template-columns: 1fr 1fr;
+        
+	}
+
+	main section:nth-child(2) {
+		display: block;
+	}
+
+	main section:nth-child(3) {
+		grid-column: span 2;
+	}
+
+	main section picture {
+		display: block;
+	}
+	main section picture img {
+		width: 100%;
+		height: auto;
+		border: 1px solid #bbb;
+	}
+    footer{
+        text-align: center;
+        color:white;
+        background-color: rgb(14, 29, 64);
+        margin: 1rem 1rem 1rem 1rem;
+        
+    }
+}
+
+/* Desktop Views ****************************/
+@media only screen and (min-width: 60em) {
+	main {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	
+	/* This is unncessary !!! The flow is set and the template is set already */
+	main section:nth-child(1) {
+	  grid-column: 1/2;
+  }
+	main section:nth-child(2) {
+	  grid-column: 2/3;
+		grid-row: 1/2;
+  }
+	/*************************************/
+
+	main section:nth-child(3) {
+		grid-column: span 1;
+	}
+}
