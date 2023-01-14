@@ -1,5 +1,7 @@
 @media only screen and (min-width:  32.5em) {
     h1 {
+        grid-column: 2/3;
+        grid-row: 1/2;
         font-size: 2.5rem;
     } 
 
@@ -7,13 +9,23 @@
         font-size: 1.5rem;
     }
 
-    header, footer {
+    header{
+        grid-template-columns: 200px 1fr;
+        grid-template-rows: 1fr;
+        border-radius: 10px;
+    }
+    footer {
         border-radius: 10px;
     } 
 
     header img {
+        grid-column: 1/2;
+        grid-row: 1/2;
         box-shadow: 0 0 30px #555;
         float: right;
-        border-radius: 0 10px 0 0;
+        border-radius: 10px 10px 10px 10px;
     } 
+    body{
+        width: 800px;
+    }
 }
