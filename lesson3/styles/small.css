@@ -1,28 +1,59 @@
+nav {
+	background-color:  rgb(231, 231, 229);
+	text-align: center;
+	box-shadow: 0 0 30px rgb(161, 161, 161);
+	font-family: 'Nunito', sans-serif;
+	display: flex;
+	
+}
+
+nav div {
+	flex: 1 1 auto;
+}
+
+nav a {
+	display: block;
+	color: 16;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+header,
+nav,
+main,
+footer {
+	max-width: flex;
+	margin: 0 auto;
+	border-radius: 25px;
+}
+
 header{
     text-align: center;
     color:white;
-    background-color: rgb(14, 29, 64);
+    background-color: rgb(41, 75, 117);
     margin: 10px;
-   
-    padding: 5px
-   
+    padding: 5px;
+	
+}
+h1{
+	font-family: 'Nunito', sans-serif;
+	font-size: 30px;
 }
 
 a {
 	padding: 10px;
 }
 
-body {
-	font-size: 16px;
-	font-family: "Sansita", Ubuntu, sans-serif;
-}
+
 /* phone or baseline views **************************/
 main {
 	max-width: 767px;
 	margin: 0 auto;
 	display: grid;
 	grid-template-columns: 1fr;
-	font-size: 0.8rem;
+	font-family: 'Fjalla One', sans-serif;
 }
 
 
@@ -30,7 +61,7 @@ main {
 main section {
 	margin: 0.5rem;
 	border: 1px solid #bbb;
-	background-color: #eee;
+	background-color: rgb(231, 231, 229);
     border-radius: 25px;
     padding: 20px;
     
@@ -39,13 +70,13 @@ main section {
 
 main section h2 {
     text-align: left;
-    font-size: 16px;
-	color: White;
-    background-color: rgb(14, 29, 64);
+	color: white;
+    background-color:  rgb(41, 75, 117);
     margin: -1.3rem -1.3rem 1rem -1.3rem;
     border-radius: 25px 25px 0px 0px;
     padding: 10px 20px 10px 20px;
-   
+    font-family: 'Nunito', sans-serif;
+	font-size:20px;
 }
 
 
@@ -55,5 +86,14 @@ main section:nth-child(2) {
 	margin: 0.5rem;
 }
 
-
+footer{
+	text-align: center;
+	color:white;
+	background-color:rgb(41, 75, 117);
+	margin: 10px;
+	padding: 20px 10px 10px 10px;
+	font-family: 'Nunito', sans-serif;
+	font-size: 16px;
+	
+}
 

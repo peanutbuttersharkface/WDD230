@@ -13,4 +13,11 @@
 	main section:nth-child(3) {
 		grid-column: span 1;
 	}
+	header,
+nav,
+main,
+footer {
+	max-width: flex;
+	margin: 0 auto;
+}
 }
