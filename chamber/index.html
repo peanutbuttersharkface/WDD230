@@ -1,26 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Weiser Idaho Chamber of Commerce</title>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles/bass.css">
-        <link rel="stylesheet" href="styles/medium.css">
-        <link rel="stylesheet" href="styles/large.css">
-    </head>
-    <body>
-        <header>
-            
+<head>
+        
+<meta charset="UTF-8">
+<meta name="description" content="Chamber of Commerce">
+<meta name="author" content="Alicia Thompson">
+
+<title>HTML Start Site by Alicia Thompson</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximun-scale=1">
+
+
+<link rel="stylesheet" href="styles/bass.css">
+<link rel="stylesheet" href="styles/medium.css"> 
+<link rel="stylesheet" href="styles/large.css">
+    
+
+
+</head>
+<body>
+    <header>
+           
             <div class ="logo">
                 <picture>
                     <img src="images/Chamber Logo Plain.png" alt=" Logo">
                 </picture>
-                <section class = "headings">
+                
                 <h1>Weiser Idaho</h1>
                   <h2>Chamber of Commerce</h2>
-            </section>
+            
             </div>
+        </header>
             <div class="social">
                 <a href="https://facebook.com"><svg enable-background="new 0 0 32 32" height="32px" id="Layer_1" version="1.0" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <g>
@@ -39,20 +49,23 @@
                         </g>
                     </svg></a>
                     </div>    
-            <nav>
-            <ul>
-            <li><a href="index.html">Home</a></li>    
+    <nav>
+     <button id="hamburgerBtn">&#9776;</button>   
+        <ul class="primaryNav">
+            <li class="active"><a href="index.html">Home</a></li>    
             <li><a href="discover.html">Discover</a></li>
             <li><a href="directory.html">  Directory</a></li>
             <li><a href="join.html">Join</a></li>
             <li><a href="contact.html">Contact</a></li>
-            </ul>
-            </nav> 
-            <aside>
+        </ul>
+        <aside>
             <div class="date"></div>
-               </aside>
-        </header>
-        <main>
+        </aside>
+    </nav> 
+            
+              
+        
+    <main>
             <section class="Hero"><p>
                 Hero with site name and call to action
             </p>
@@ -95,13 +108,8 @@
     Location Map</p></div>
         <h3>&copy; <span id="currentYear"></span>
              Weiser Chamber | Alicia Thompson | WDD 230 Project | Last Modification: <span id="lastUpdated"></span></h3> 
-        <p id="demo"></p>
-
-        <script src="scripts/script.js"></script>
-        
-        
-           
-        
+        <p id="demo"></p>   
     </footer>
+<script src="scripts/script.js"></script>   
 </body>
 </html>

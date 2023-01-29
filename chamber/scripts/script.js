@@ -1,3 +1,10 @@
+function toggleMenu() {
+    document.getElementById("primaryNav").classList.toggle("open");
+}
+
+const x = document.getElementById('hamburgerBtn')
+x.onclick = toggleMenu;
+
 // select the elements to manipulate (output to)
 const datefield = document.querySelector(".date");
 const datefieldUK = document.querySelector("aside"); // for european/family history format with day first.
@@ -20,3 +27,4 @@ const lastModified = document.lastModified
 
 document.querySelector("#currentYear").textContent = year
 document.querySelector("#lastUpdated").textContent = lastModified
+

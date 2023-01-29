@@ -1,35 +1,20 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 header {
 	background-color:white;
     color:rgb(41, 75, 117);
 	padding: 5px 0;
 	display: flex;
-	align-items: left;
-	justify-content: space-between;
-	max-width: 900px;
-	margin: 0 auto;
-	border-bottom: 1px solid #bbb;
-    border-radius: 10px;
-}
-
- 
-nav a {
-	font-size: 20px;
-    font-family: 'Nunito', sans-serif;
-    color:rgb(41, 75, 117);
-}
-aside {
-    color:rgb(41, 75, 117); 
-    text-align: center;
-	box-shadow: 0 0 30px rgb(161, 161, 161);
-    float: center;
-}
- .logo {
-	display: flex;
 	align-items: center;
-	margin-left: 1rem;
+	justify-content: space-between;
+	max-width: 800px;
+	margin: 0 auto;
+	
 }
-
 .logo img {
 	width: 150px;
 	height: auto;
@@ -44,6 +29,56 @@ aside {
 	height: auto;
     border-radius: 5px;
 }
+h1, p {margin: 0 2vw;}
+nav button{
+	margin:.2rem svw;
+	background-color:transparent;
+	border:none;
+	font-size: 2rem;
+	color:rgb(161, 161, 161);
+}
+nav{
+	background-color: #eee;
+}
+nav ul{
+	list-style-type: none;
+	padding:0;
+	margin:0;
+}
+nav ul li a{
+	display: block;
+	padding: .8rem 2vw;
+	text-decoration: none;
+	color:#333;
+	border-top: 1px solid rgba(0,0,0,0.5);
+}
+nav ul li.active a {
+    background-color: rgba(0,0,0,0.2);
+    color:#fff;
+ }
+nav ul li a:hover{
+    background-color: rgba(0,0,0,0.3);
+
+}
+nav ul {
+    display:none;
+}
+nav ul.open {display: block;}
+
+ 
+aside {
+    color:rgb(41, 75, 117); 
+    text-align: center;
+	box-shadow: 0 0 30px rgb(161, 161, 161);
+    
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	margin-left: 1rem;
+}
+
 
 h1 {
 	font-size: 50px;
@@ -61,10 +96,12 @@ main section {
 	background-color: rgb(231, 231, 229);
     border-radius: 25px;
     padding: 20px;
+	max-width: 800px;
+	
+
      
 }
-
-footer{
+  footer{
 	text-align: center;
 	color:rgb(41, 75, 117);
 	background-color:white;
