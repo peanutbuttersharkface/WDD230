@@ -55,9 +55,7 @@ main section:nth-child(2) {
 	margin: 0.5rem;
 }
 
-.colimage {
-	
-}
+
 
 /* Tablet Views ******************************/
 @media only screen and (min-width: 37.5em) {
