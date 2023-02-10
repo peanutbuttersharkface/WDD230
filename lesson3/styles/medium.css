@@ -1,12 +1,24 @@
 /* Tablet Views ******************************/
 @media only screen and (min-width: 37.5em) {
+	h1{
+		font-size: 1.5rem;
+	}
+	nav ul {
+		display: grid;
+/* 		grid-template-columns: repeat(5, 1fr); */
+		grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+	} 
+
+	nav a {
+		font-size: 1rem;
+	}
 	main {
 		grid-template-columns: 1fr 1fr;
         
 	}
 
 	main section:nth-child(2) {
-		display: block;
+		grid-column: span 2;
 	}
 
 	main section:nth-child(3) {
@@ -21,6 +33,8 @@
 		height: auto;
 		border: 1px solid #bbb;
 	}
-   
+	footer {
+		flex-direction: row;
+	}
 }
 
