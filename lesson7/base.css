@@ -1,0 +1,59 @@
+article img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+  article img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  picture {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding:0px 4px;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items:center;
+  }
+
+  .one {
+    padding: 4px;
+  }
+  .two {
+    padding: 4px;
+  }
+  .three {
+    padding: 4px;
+  }
+  .four {
+    padding: 4px;
+  }
+  .five {
+    padding: 4px;
+  }
+  .six {
+    padding: 4px;
+  }
+  
+ 
+  
+
+  
+
+  
+ 
+ 
