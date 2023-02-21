@@ -13,7 +13,7 @@ Header{
 .logo img {
 	
     max-width:75%;
-	max-height: auto;
+	height: auto;
 	object-fit:cover;
 
 }
@@ -172,7 +172,7 @@ footer{
 }
 .location img{
 	max-width: 22px;
-	max-height: auto;
+	height: auto;
 }
 .location{
 	padding-bottom: 10px;
