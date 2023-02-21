@@ -1,15 +1,79 @@
-/*35rem is also 560px  when basefront is 16px */
-@media only screen and (min-width: 32.5rem){
-
-    nav button{display: none;}
-
-    nav ul#primaryNav{
-        display: flex;
-        margin-left: 2vw;
-        border-left: 1px solid rgba(0,0,0,0.3);
+@media only screen and ( min-width: 34em ) /* 521 or smaller */
+{/*Grid*/
+    /*.container{
+        display:grid;
+        grid-template-areas:
+         "logo title social nav"
+         "logo title social nav"
+         "date date date date";
+         grid-template-columns:20fr  30fr 10fr 10fr;}
+    .logo{
+        grid-area: logo;
+    } 
+    .logo img{	
+        width: 100%;
+        vertical-align: middle;
+    }  
+    .title{
+        grid-area: title;
     }
-    nav ul li a {
-        border: none;
-        border-right: 1px solid rgba(0,0,0,0.3);
+    .social{
+        grid-area:social;
     }
+    nav{
+        grid-area:nav;
+    }*/
+    .date{
+        font-size: 18px;
+       }
+    /*Navigation*/
+	.navigation{
+        display:flex;
+    }
+    .navigation li{
+        display: block;
+        flex: 1 1 auto;
+    }
+
+    .navigation a {
+        text-align: center;
+    }
+
+    .navigation li:first-child{
+        display: none;
+    }
+    .navigation a:hover{
+        color: darkslategray;
+        --d: 75%;
+    }
+	/*main*/
+    /*main{
+        display: grid;
+        grid-template-areas: 
+        "Hero Hero"
+        "News News"
+        "Spotlight Spotlight"
+        "Join Join"
+        "Event Weather";
+        grid-template-columns: 40fr 40fr;
+        grid-template-rows: 20fr 20fr 20fr 20fr;
+     }
+    .Hero{
+     grid-area: Hero;
+    }
+    .Event{
+     grid-area: Event;
+    }
+    .Weather{
+     grid-area: Weather;
+    }
+    .Join{
+     grid-area: Join;
+    }
+    .News{
+     grid-area: News;
+    }
+    .Spotlight{
+     grid-area: Spotlight;
+    }*/
 }

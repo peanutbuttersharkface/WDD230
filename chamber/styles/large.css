@@ -1,6 +1,61 @@
-/* 64em is also 1028px when basefont is 16px */
-@media only screen and (min-width: 64rem){
-    nav ul li a {
-       padding: .5rem 1rem;
-    }   
+@media only screen and ( min-width: 60em ) { /*1025 or smaller*/
+	/*grid*/
+   /*.container{
+      display:grid;
+      grid-template-areas:
+       "logo title nav social"
+       "logo title nav social"
+       "date date date date";
+       grid-template-columns:20fr 30fr 15fr 15fr;}
+  .logo{
+      grid-area: logo;
+  } 
+  .logo img{	
+      width: 100%;
+      vertical-align: middle;
+  }  
+  .title{
+      grid-area: title;
+  }
+  .social{
+      grid-area:social;
+  }
+  nav{
+      grid-area:nav;
+  }*/
+  .date{
+   font-size: 25px;
+  }
+   
+   /*Navigation*/
+   nav a {
+      font-size: 1.1rem;
    }
+   /*Main*/
+   /*main{
+      display: grid;
+      grid-template-areas: 
+      "Event Hero  Spotlight"
+      "weather Hero Spotlight"
+      "Join News Spotlight";
+      grid-template-columns: 20fr 40fr 20fr;
+   }
+  .Hero{
+   grid-area: Hero;
+  }
+  .Event{
+   grid-area: Event;
+  }
+.weather{
+   grid-area: weather;
+}
+.Join{
+   grid-area: Join;
+}
+.News{
+   grid-area: News;
+}
+.Spotlight{
+   grid-area: Spotlight;
+}*/
+}

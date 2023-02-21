@@ -1,30 +1,24 @@
-function toggleMenu() {
-    document.getElementById("primaryNav").classList.toggle("open");
-}
+const months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
-const x = document.getElementById('hamburgerBtn')
-x.onclick = toggleMenu;
+const d = new Date();
+let month = months[d.getMonth()];
+let day = days[d.getDay()];
+let years = d.getFullYear();
+let num = d.getDate();
+let currentDate = `${day}, ${num} ${month} ${years}`
+document.getElementById("date").innerHTML = currentDate;
 
-// select the elements to manipulate (output to)
-const datefield = document.querySelector(".date");
-const datefieldUK = document.querySelector("aside"); // for european/family history format with day first.
-
-// derive the current date using a date object
-const now = new Date();
-const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
-	now
-);
-const fulldateUK = new Intl.DateTimeFormat("en-UK", {
-	dateStyle: "full"
-}).format(now);
-// long, medium, short options ... try them
-
-
-datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
 
 const year = new Date().getFullYear()
 const lastModified = document.lastModified
 
 document.querySelector("#currentYear").textContent = year
 document.querySelector("#lastUpdated").textContent = lastModified
+
+const mainnav = document.querySelector('.navigation')
+const hambutton = document.querySelector('#menu');
+
+
+hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
 
