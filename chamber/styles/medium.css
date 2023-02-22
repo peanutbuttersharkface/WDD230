@@ -65,33 +65,84 @@
     /*Navigation*/
 	
 	/*main*/
-    /*main{
+    main{
         display: grid;
-        grid-template-areas: 
-        "Hero Hero"
-        "News News"
-        "Spotlight Spotlight"
-        "Join Join"
-        "Event Weather";
-        grid-template-columns: 40fr 40fr;
-        grid-template-rows: 20fr 20fr 20fr 20fr;
+        
+        grid-template-columns: 75px 75px 75px 75px;
+        grid-template-rows: 175px 175px 175px 175px 175px;
      }
+
+     .Spotlight{
+ grid-row: 5/8;
+ border: 1px solid #bbb;
+ padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+.spot1{
+	
+	border: 1px solid #bbb;
+	
+}
+.spot2{
+	
+	border: 1px solid #bbb;
+	
+}
+.spot3{
+	
+	border: 1px solid #bbb;
+	padding-left: 10px;
+	padding-right: 10px;
+}
     .Hero{
-     grid-area: Hero;
+        grid-column: 1/4;
+        grid-row:1/2;
     }
     .Event{
-     grid-area: Event;
+        grid-column: 1/4;
+        grid-row:5/6;
     }
     .Weather{
-     grid-area: Weather;
+        grid-column: 3/4;
+        grid-row:5/6;
     }
     .Join{
-     grid-area: Join;
+        grid-column: 1/4;
+        grid-row:4/5;
     }
     .News{
-     grid-area: News;
+        grid-column: 1/4;
+        grid-row:2/3;
     }
     .Spotlight{
-     grid-area: Spotlight;
-    }*/
+        grid-column: 1/4;
+        grid-row:3/4;
+        border: 1px solid #bbb;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+    .Spotlight{
+        grid-row: 5/8;
+        
+       }
+       .spot1{
+           
+           border: 1px solid #bbb;
+           
+       }
+       .spot2{
+           
+           border: 1px solid #bbb;
+           
+       }
+       .spot3{
+           
+           border: 1px solid #bbb;
+           padding-left: 10px;
+           padding-right: 10px;
+       }
 }

@@ -148,19 +148,21 @@ main{
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-bottom: 20px;
+	
+	grid-template-rows: 1fr 1fr 1fr;
 }
 .spot1{
-	
+	grid-row: 1/2;
 	border: 1px solid #bbb;
 	
 }
 .spot2{
-	
+	grid-row: 2/3;
 	border: 1px solid #bbb;
 	
 }
 .spot3{
-	
+	grid-row:3/4;
 	border: 1px solid #bbb;
 	padding-left: 10px;
 	padding-right: 10px;
