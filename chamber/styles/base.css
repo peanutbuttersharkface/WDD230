@@ -12,7 +12,7 @@ Header{
 }
 .logo img {
 	
-    max-width:75%;
+    max-width:60%;
 	height: auto;
 	object-fit:cover;
 
@@ -120,7 +120,7 @@ nav{
 main{
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-rows: 4fr 4fr 4fr 4fr 8fr 4fr 4fr.15fr;
+	grid-template-rows: 175px 175px 175px 175px 175px 175px 175px 165px 175px .15fr;
 	font-family:'Nunito', sans-serif;
 	row-gap: 15px;
  }
@@ -136,27 +136,40 @@ main{
  grid-row: 3/4;
  border: 1px solid #bbb;
 }
-.Join{
- grid-row: 7/8;
- border: 1px solid #bbb;
- 
-}
+
 .News{
  grid-row: 4/5;
  border: 1px solid #bbb;
 }
 .Spotlight{
- grid-row: 5/7;
+ grid-row: 5/8;
  border: 1px solid #bbb;
 }
 .spot1{
+	
 	border: 1px solid #bbb;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
 }
 .spot2{
+	
 	border: 1px solid #bbb;
 	padding-left: 10px;
 	padding-right: 10px;
 }
+.spot3{
+	
+	border: 1px solid #bbb;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.Join{
+	grid-row: 8/9;
+	border: 1px solid #bbb;
+	
+   }
 /*Footer*/
 footer{
 	text-align: center;
