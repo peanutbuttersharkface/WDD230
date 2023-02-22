@@ -23,29 +23,40 @@
     nav{
         grid-area:nav;
     }*/
+    .container{
+        display:grid;
+        grid-template-columns: 5fr 1fr 1fr .5fr .5fr 1.5fr;
+        grid-template-rows: .5fr 1fr .25fr .15fr; 
+         
+    }
+    .face{
+        grid-column:4/5;
+        grid-row: 1/2;
+        max-width: 32px;
+        min-width: 32px;
+       
+        
+    }
+    .link{
+        grid-column: 5/6;
+        grid-row: 1/2;
+        max-width: 32px;
+        min-width: 32px;
+       
+    }
+    nav{
+        grid-column:6/7;
+        grid-row:1/2;
+        
+        
+    }
     .date{
         font-size: 18px;
+        grid-column:1/7;
+	    grid-row: 3/4;
        }
     /*Navigation*/
-	.navigation{
-        display:flex;
-    }
-    .navigation li{
-        display: block;
-        flex: 1 1 auto;
-    }
-
-    .navigation a {
-        text-align: center;
-    }
-
-    .navigation li:first-child{
-        display: none;
-    }
-    .navigation a:hover{
-        color: darkslategray;
-        --d: 75%;
-    }
+	
 	/*main*/
     /*main{
         display: grid;
