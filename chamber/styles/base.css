@@ -124,42 +124,56 @@ main{
 	font-family:'Nunito', sans-serif;
 	row-gap: 15px;
  }
+ .Hero, .News, .Event, .Weather, .Join, .Spotlight{
+	background-color: rgb(232, 231, 231);
+ }
 .Hero{
  grid-row: 1/2;
  border: 1px solid #bbb;
+ padding-left: 10px;
+	padding-right: 10px;
+	
 }
 .Event{
  grid-row: 2/3;
  border: 1px solid #bbb;
+ padding-left: 10px;
+	padding-right: 10px;
 }
 .Weather{
  grid-row: 3/4;
  border: 1px solid #bbb;
+ padding-left: 10px;
+	padding-right: 10px;
 }
 
 .News{
  grid-row: 4/5;
  border: 1px solid #bbb;
+ padding-left: 10px;
+	padding-right: 10px;
 }
 .Spotlight{
+ display:grid;
  grid-row: 5/8;
  border: 1px solid #bbb;
  padding-top: 20px;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-bottom: 20px;
-	
-	grid-template-rows: 1fr 1fr 1fr;
+ padding-left: 20px;
+ padding-right: 20px;
+ padding-bottom: 20px;
+ grid-template-rows: 1fr 1fr 1fr;
 }
 .spot1{
 	grid-row: 1/2;
 	border: 1px solid #bbb;
-	
+	padding-left: 10px;
+	padding-right: 10px;
 }
 .spot2{
 	grid-row: 2/3;
 	border: 1px solid #bbb;
-	
+	padding-left: 10px;
+	padding-right: 10px;
 }
 .spot3{
 	grid-row:3/4;
@@ -170,10 +184,12 @@ main{
 .Join{
 	grid-row: 8/9;
 	border: 1px solid #bbb;
-	
+	padding-left: 10px;
+	padding-right: 10px;
    }
 /*Footer*/
 footer{
+	display: grid;
 	text-align: center;
 	color:rgb(41, 75, 117);
 	background-color:white;
@@ -182,14 +198,19 @@ footer{
 	font-family: 'Nunito', sans-serif;
 	font-size: 12px;
 	border: 1px solid #bbb;
-    max-width: 900px;
+    max-width: 1600px;
     align-items: center;
+	grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 .mini img {
     width:125px;
     height: auto;
 	padding-top: 10px;
 
+}
+.mini{
+	grid-row:1/2;
 }
 .location img{
 	max-width: 22px;
@@ -198,9 +219,16 @@ footer{
 .location{
 	padding-bottom: 10px;
 }
+.address{
+	grid-row:2/3;
+}
+.info{
+	grid-row:3/4;
+}
 .low{
 	padding-top: 5px;
 	border-top: solid 1px;
+	grid-row:4/5;
 }
 footer h2, h3, p{
 	margin:0;
