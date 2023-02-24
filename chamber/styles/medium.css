@@ -1,28 +1,5 @@
 @media only screen and ( min-width: 34em ) /* 521 or smaller */
-{/*Grid*/
-    /*.container{
-        display:grid;
-        grid-template-areas:
-         "logo title social nav"
-         "logo title social nav"
-         "date date date date";
-         grid-template-columns:20fr  30fr 10fr 10fr;}
-    .logo{
-        grid-area: logo;
-    } 
-    .logo img{	
-        width: 100%;
-        vertical-align: middle;
-    }  
-    .title{
-        grid-area: title;
-    }
-    .social{
-        grid-area:social;
-    }
-    nav{
-        grid-area:nav;
-    }*/
+{
     .container{
         display:grid;
         grid-template-columns: 5fr 1fr 1fr .5fr .5fr 1.5fr;
@@ -65,7 +42,7 @@
     /*Navigation*/
 	
 	/*main*/
-main{
+.home{
     display: grid;  
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;

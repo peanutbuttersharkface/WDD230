@@ -85,7 +85,7 @@ nav{
       --d: 75%;
   }
    /*Main*/
-   main{
+   .home{
       display: grid;  
       grid-template-columns: 1fr 1fr 1fr 1fr;
       grid-template-rows: 175px 175px 175px;
@@ -151,7 +151,13 @@ nav{
           grid-column: 2/4;
           grid-row:3/4;
       }
-
+      form label.sbs{
+         padding: .4rem 0;
+     }
+     header, nav, main, footer {
+      max-width: 64rem;
+      margin:auto;
+  }    
 footer{
    display:grid;
    grid-template-columns: 1fr 1fr 1fr 1fr;
