@@ -390,12 +390,12 @@ section {
 .grid section {
 	flex-direction: column;
 	text-align: center;
-	width: 225px;
+	width: 200px;
 	height: 175px;
 }
 
 .grid section > * {
-	margin: 0.1rem;
+	margin: 0rem;
 }
 
 .grid section h2 {
