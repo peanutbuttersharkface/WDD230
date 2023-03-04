@@ -284,61 +284,7 @@ form label.top input:required:valid{
 	color:black;
 }
 /*Directory*/
-
-
-/*.cards h2 {
-	color: rgb(40, 40, 118);
-	margin: 0 0 1rem 0;
-	   border-bottom: 1px solid #bbb;
-	   font-size: 1.75rem;
-  }*/
-  
-  /*.cards h3  {
-	margin: 0;
-	  font-size: 1rem;
-  }
-  
- .cards h4 {
-	color: #333;
-	margin: 7px 0 5px 0;
-  }
-  
-  .cards h5 {
-	margin: 0;
-  }
-  
-  
-  .cards {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-	/*margin-left: 2rem;
-	margin-right:2rem;*/
-  /*}
-  
-  .cards section {
-	margin: 0.25rem;
-	padding: 0.35rem;
-	background-color: #d9d4cc;
-	border: 1px solid #bbb;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding-right: 10px;
-	height: 300px;
-	width: 350px;
-  }
-  .cards section > h3, h4 {
-	min-height: 30px;
-  }
-  
-  .cards img {
-	width: auto;
-	  max-width: 150px;
-	height: auto;
-	
-  }
-  
-  /*grid or list buttons*/ 
+/*grid or list buttons*/ 
 
  * {
 	margin: 0;
@@ -346,26 +292,21 @@ form label.top input:required:valid{
 	box-sizing: border-box;
 }
 
-/*main {
-	margin: 0 auto;
-	border: 1px solid rgba(0, 0, 0, 0.1);
-	padding: 0.5rem;
-	max-width: 700px;
-	background-color: #eee;
-	font-family: Roboto, Helvetica, sans-serif;
-}*/
 
 .menu {
 	margin: 1rem auto;
-	border: 1px solid rgba(0, 0, 0, 0.1);
+	/*border: 1px solid rgba(0, 0, 0, 0.1);*/
 	padding: 0.5rem;
-	background-color: #bbb;
+	background-color: #fdfcfc;
 	text-align: center;
 }
 
 .menu button {
-	padding: 1rem;
+	padding: .5rem;
 	font-weight: 700;
+	font-size: 1rem;
+	
+	background-color: rgb(181, 183, 183);
 }
 
 article,
@@ -376,7 +317,9 @@ section {
 section {
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 0.5rem;
-	background-color: #ccc;
+	background-color: #fdfcfc;
+	box-shadow: 0 0 15px rgba(74, 74, 74, 0.9);
+
 	
 }
 
@@ -446,16 +389,12 @@ section h4 {
 section h5 {
 	font-size: .5rem;
 }
-/*section a {
-	font-family: "Roboto", Arial, sans-serif;
-	font-size: 0.9rem;
-}*/
+
 
 img {
 	max-width: 100px;
 	height: auto;
-	/*height: 75px;
-	max-width: 100%; /* Images are jerks - Seattle*/
+	
 }
 /*Footer*/
 footer{

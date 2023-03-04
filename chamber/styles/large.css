@@ -157,7 +157,13 @@ nav{
      header, nav, main, footer {
       max-width: 64rem;
       margin:auto;
-  }    
+  } 
+  .grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	align-items: center;
+	 
+}   
 footer{
    display:grid;
    grid-template-columns: 1fr 1fr 1fr 1fr;
