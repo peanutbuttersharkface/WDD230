@@ -1,3 +1,4 @@
+
 //get all images with data-scr attribute
 let imagesToLoad = document.querySelectorAll("img[data-src]");
 
