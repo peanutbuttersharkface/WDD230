@@ -1,9 +1,10 @@
 
 main{
-    background-color: rgb(90, 163, 190);
+    background-color: rgb(151, 210, 232);
     border-style:solid;
     box-shadow: 5px 10px #b2b2b2;
     border-color: gainsboro;
+    
     max-width: 600px;
     margin:0 auto;
 }
@@ -16,7 +17,8 @@ body{
 h1{
     font-size: 30px;
     text-align: center;
-    color: white;
+    color: rgb(8, 8, 8);
+    text-shadow: 3px 7px gainsboro;
 }
 h2{
     font-size: 25px;
@@ -32,6 +34,7 @@ img{
     margin-left:auto;
     margin-right: auto;
     width: 20%;
+    background-color: white;
    
 }
 figcaption{
