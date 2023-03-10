@@ -1,0 +1,43 @@
+
+main{
+    background-color: rgb(90, 163, 190);
+    border-style:solid;
+    box-shadow: 5px 10px #b2b2b2;
+    border-color: gainsboro;
+    max-width: 600px;
+    margin:0 auto;
+}
+body{
+    
+    background-color: white;
+    
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+h2{
+    font-size: 25px;
+    text-align:center;
+    color:white;
+}
+p{
+    font-size: 15px;
+    text-align:center;
+}
+img{
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 20%;
+   
+}
+figcaption{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    
+}
