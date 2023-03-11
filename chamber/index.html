@@ -48,6 +48,9 @@
                 </div>     
                     
                     <p id="date" class="date"></p> 
+                    <div class="banner">
+                        "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m."
+                    </div>
 
                             
 </div>
@@ -57,48 +60,82 @@
         
     <main>
         <div class="home">
-            <section class="Hero"><h3>
-                Hero with site name and call to action
+            <section class="Hero">
+                <h3>
+               <img class="idahoMountain" src="images/idahomountains.jpg" alt="idahoMountain">
+               <h2>Welcome to Weiser!</h2>
+               <button class="btn">Start Membership</button> 
             </h3>
             </section>
             <section class="Event">
                 <h3>
-                    Event
+                    Events
                 </h3>
+                <h4>Don't miss the 15th Annual City Pancake Breakfast!</h4><br>
+                <p>Sponsored by Weiser Chamber of Commerce</p>
+                <p>Questions Please Contact Our Office</p>
+                <p>(208) 555- 1400</p>
                 
             </section>
             <section class="Weather">
-                <h3>
-                    Weather
-                </h3>
+                <h2>Weather </h2>
+                <h1><strong><span id="current-temp"></span></strong> &deg;F</h1>
+                <figure>
+                <img src="" alt="" id="weather-icon" />
+                </figure>
+                <h3><figcaption></figcaption> </h3>
+                <p>Wind Speed:  <span id="wind-speed"></span></p>
+                <p>Wind Chill:  <span id="wind-chill"></span></p>
             </section>
             
             <section class="Join">
-                <h3>
-                    Join
-                </h3>
+                <button class="joinbtn">JOIN</button> 
+                <br>
+                <br>
+                <p>Click the button to see what great benefits there are to being a part of the Chamber of Commerce!</p>
             </section>
             <section class="News">
                 <h3>
                     News Release
                 </h3>
+                <p>Sam Man is WANTED for stealing a ham from the Piggly Wiggly on January 31.
+                    If you know of his whereabouts please contact the local police.  If he still 
+                    has the ham you can keep it as your reward!
+                </p>
             </section>
-            <div class="Spotlight">
+            <section class="Spotlight">
                 <div class="spot1">
-                <h3>
-                    Spotlight 1
+                <h3 >
+                    Heart Bakery
 
                 </h3>
+                <img src="images/donut.png">
+                <p>Donuts Fresh Daily!<br>
+                    Open 6am-4pm Mon-Sat.
+                </p><br>
+                <h4>orders@heartbakery.com</h4>
+                <h4>(208) 549-1000</h4>
             </div>
-                <h3 class="spot2">
-                    Spotlight 2
-    
-                </h3>
-                <h3 class="spot3">Spotlight 3
+                <div class="spot2">
+                    <h3>Fancy Pants Gym</h3>
+                    <img src="images/exercise.jpg">
+               
+                <p>Be a good human workout!</p><br>
+                <h4>membership@gym.net</h4>
+                <h4>1-800-workout</h4>
+            </div>
+                <div class="spot3">
+                <h3>
+                    Nathan's Storage
    
                 </h3>
+                <img src="images/storage.png">
+                <p>You buy it, we store it!</p><br>
+                <h4>rental@storage.org</h4>
+                <h4>(208) 555-1122</h4>
             </div>
-        </div>    
+            </div>
+            
     </main>
     <footer>
     <div class = "mini">
@@ -134,10 +171,12 @@
                 <p>Last Modification: <span id="lastUpdated"></span></p> 
             </div>
             <div class="credit">
-             <a href="https://www.flaticon.com/free-icons/pin" title="pin icons">Pin icons created by Freepik - Flaticon</a>
+             <a href="https://www.flaticon.com/free-icons/pin" title="pin icons">Pin icons created by Freepik - Flaticon</a><br>
+             <a href="https://openweathermap.org/">openweathermap.org</a>
             </div>
             </div>   
     </footer>
-<script src="scripts/script.js"></script>   
+<script src="scripts/script.js"></script> 
+<script src="scripts/weather-api.js"></script>  
 </body>
 </html>

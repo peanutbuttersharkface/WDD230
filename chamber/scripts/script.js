@@ -22,3 +22,9 @@ const hambutton = document.querySelector('#menu');
 
 hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
 
+const banner = document.querySelector('#banner');
+const today = new Date().getDay();
+
+if (today === 1 || today === 2){
+    banner.style.display ="block";
+}

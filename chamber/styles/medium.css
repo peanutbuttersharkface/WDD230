@@ -45,9 +45,17 @@
 .home{
     display: grid;  
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1.5fr 300px 285px 250px 250px;
     
      }
+     .Hero h2{ 
+        top:15px;
+        left: 175px;
+    }    
+.Hero .btn{
+    margin-right:105px;
+}
+
 .Spotlight{
  grid-column: 1/4;  
  grid-row: 3/4;
@@ -58,7 +66,7 @@
  padding-right: 20px;
  padding-bottom: 20px;
  grid-template-columns: 1fr 1fr 1fr;
- grid-template-rows: 175px;
+ grid-template-rows: 1fr;
 }
 .spot1{
 	grid-column: 1/2;
@@ -89,6 +97,11 @@
         grid-row:5/6;
         margin-bottom: 15px;
     }
+    .Event h3{
+        font-size: 25px;
+        padding-top:20px;
+        border-bottom: 1px solid #bbb;
+    }
 .Weather{
         grid-column: 3/4;
         grid-row:5/6;
@@ -99,11 +112,36 @@
         grid-column: 1/4;
         grid-row:4/5;
     }
+    .Join .joinbtn{
+        bottom: 60%;
+        right: 40%;   
+    }
+    .Join p{
+        margin-top: 100px;
+        margin-left:30px;
+        margin-right:30px;
+    }   
 .News{
         grid-column: 1/4;
         grid-row:2/3;
-    }
-
+        padding-left: 30px;
+           padding-right: 30px;
+           text-align: center;
+           padding-top: 30px;
+          
+          
+       
+       }
+       .News h3{
+           font-size: 30px;
+           padding-bottom: 30px;
+           padding-top:30px;
+       }
+       .News p{
+           padding-left: 30px;
+           padding-right: 30px;
+           font-size: 18px;
+       }
     footer{
         display:grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
