@@ -21,7 +21,7 @@ const hambutton = document.querySelector('#menu');
 
 
 hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
-
+// annoucement bar
 const banner = document.querySelector('#banner');
 const today = new Date().getDay();
 

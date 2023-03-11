@@ -141,7 +141,9 @@ nav{
 .responsive #menu::before{
 	content:"X"
 }
-
+.banner{
+	display:none;
+}
 /*Main*/
 main{
 	padding-bottom:20px;
