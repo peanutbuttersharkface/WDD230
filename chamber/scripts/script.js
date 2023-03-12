@@ -25,6 +25,6 @@ hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive'
 
 if (day === "Monday" || day === "Tuesday");
 const ann = document.getElementById("ann");
-ann.style.display = "block";
+ann.style.display = "hidden";
 
 
