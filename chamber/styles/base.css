@@ -580,6 +580,13 @@ section h4 {
 section h5 {
 	font-size: .5rem;
 }
+
+.mini img {
+	max-width: 125px;
+	height: auto;
+	
+}
+/*Discover page*/
 .discover{
 	color:rgb(41, 75, 117);
 }
@@ -589,12 +596,8 @@ section h5 {
 	border-bottom: 1px solid;
 	margin-bottom: 10px;
 }
+.discover .hover:hover {box-shadow: 0 0 50px #333;}
 
-.mini img {
-	max-width: 125px;
-	height: auto;
-	
-}
 /*Footer*/
 footer{
 	display: grid;
@@ -640,6 +643,11 @@ footer{
 	padding-top: 5px;
 	border-top: solid 1px;
 	grid-row:4/5;
+}
+#visits {
+	color: navy;
+	font-weight: bolder;
+	font-size: larger;
 }
 footer h2, h3, p{
 	margin:0;
