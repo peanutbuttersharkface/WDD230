@@ -147,34 +147,54 @@
     display:grid !important;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-}  
+} 
+
+.discover .one p{
+    text-align:left;
+    padding-left: 20%;
+}
 .discover .one {
     grid-column: 1/2 !important;
     grid-row: 1/2 !important;
-}   
+}  
+
+.discover .two p{
+    text-align:left;
+    padding-left: 20%;
+}
 .discover .two {
     grid-column: 1/2 !important;
     grid-row: 2/3 !important;
 } 
+ 
+.discover .three p{
+    text-align:left;
+    padding-left: 20%;
+}
 .discover .three {
     grid-column: 1/2;
     grid-row: 3/4;
 } 
+
+.discover .four p{
+    text-align:left;
+    padding-left: 20%;
+}
 .discover .four {
     grid-column: 1/2;
     grid-row: 4/5;
+}
+
+.discover .five p{
+    text-align:left;
+    padding-left: 20%;
 }
 .discover .five {
     grid-column: 1/2;
     grid-row: 5/6;
 } 
-.discover p{
-    grid-column:2/3;
-    grid-row: 1/2;
-    padding-left: 10px;
-    font: 18px;
-    
-}
+ 
+
 
 footer{
         display:grid;

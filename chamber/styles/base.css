@@ -590,11 +590,60 @@ section h5 {
 .discover{
 	color:rgb(41, 75, 117);
 }
+
 .disTitle{
 	text-align: center;
 	color:rgb(41, 75, 117);
-	border-bottom: 1px solid;
+	border-bottom: 5px double;
 	margin-bottom: 10px;
+}
+.discover .one img{
+    margin-top:10px;
+   margin-left: 20%;
+   max-width:118%;
+   border: 5px;
+   border-style:double;
+} 
+.discover .two img{
+    margin-top:10px;
+    margin-left: 20%;
+   max-width:118%;
+   border: 5px;
+   border-style:double;
+}
+.discover .three img{
+    margin-top:10px;
+    margin-left: 20%;
+    max-width:118%;
+    border: 5px;
+    border-style:double;
+} 
+.discover .four img{
+    margin-top:10px;
+    margin-left: 20%;
+    max-width:118%;
+    border: 5px;
+    border-style:double;
+} 
+.discover .five img{
+    margin-top:10px;
+    margin-left: 20%;
+    max-width:118%;
+    border: 5px;
+    border-style:double;
+}
+.discover .weiserInfo p{
+    grid-column:2/3;
+    grid-row: 1/2;
+	margin-left: 30%;
+    padding-left: 25px;
+	font-size: 25px;
+    margin-top: 75px;
+    border: 5px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    border-style:double;
+    background-color: rgb(244, 240, 235);
 }
 .discover .hover:hover {box-shadow: 0 0 50px #333;}
 
