@@ -528,12 +528,12 @@ section {
 	margin: 0rem;
 }
 .grid section img{
-	width: 125px;
+	width: 6rem;
 	height:auto;
 }
 
 .grid section h2 {
-	font-size: .5rem;
+	font-size: .75rem;
 	
 }
 
@@ -571,14 +571,15 @@ section {
 	background-color: rgb(203, 224, 243);
 }
 
+
 section h3 {
-	font-size: 1rem;
+	font-size: 1.25rem;
 }
 section h4 {
-	font-size: .75rem;
+	font-size: 1rem;
 }
 section h5 {
-	font-size: .5rem;
+	font-size: .7rem;
 }
 
 .mini img {

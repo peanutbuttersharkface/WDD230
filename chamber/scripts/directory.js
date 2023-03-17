@@ -52,7 +52,7 @@ async function getDirectoryData() {
   
       // Append the section(card) with the created elements
      // card.appendChild(h2);
-     card.appendChild(h2);
+      card.appendChild(h2);
       card.appendChild(portrait);
       card.appendChild(h3);
       card.appendChild(h4);

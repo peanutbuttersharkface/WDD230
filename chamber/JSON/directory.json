@@ -2,15 +2,15 @@
     "directory": [
         {
             "name": "Ridley's Family Markets",
-            "address": "1401 E 6th Street",
+            "address": "1401 E 6th St.",
             "phonenumber": "(208) 549-0172",
-            "website":"https://shopridleys.com/home.php",
-            "logo": "images/Ridleylogo.png",
+            "website":"https://shopridleys.com/home.php" ,
+            "logo": "images/Ridleylogo.png" ,
             "membershipLevel": "Gold"
         },
         {
             "name": "People's Furniture",
-            "address": "525 State Stree",
+            "address": "525 State St.",
             "phonenumber": "(208) 549-2246",
             "website":"https://www.shoppeoples.com/",
             "logo": "images/peopleslogo.png",
@@ -34,7 +34,7 @@
         },
         {
             "name": "Ace Hardware",
-            "address": "1401 E 6th Street",
+            "address": "1401 E 6th St.",
             "phonenumber": "(208) 549-1332",
             "website":"https://www.acehardware.com/",
             "logo": "images/Acelogo.png",
