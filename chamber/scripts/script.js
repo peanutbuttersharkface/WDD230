@@ -24,6 +24,7 @@ hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive'
 // annoucement bar
 
 
+
 const ann = document.getElementById("ann");
 
 if (day === "Monday" || day === "Tuesday");
