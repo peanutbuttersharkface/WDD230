@@ -224,7 +224,7 @@ main{
 .Event h3{
 	font-size: 30px;
 	padding-top:30px;
-	border-bottom: 1px solid #bbb;
+	border-bottom: 2px solid white;
 }
 .Event h4{
 	font-size: 20px;
