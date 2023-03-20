@@ -218,7 +218,7 @@ main{
 	padding-right: 10px;
 	text-align: center;
 	color: white;
-	background-color: cornflowerblue;
+	background-color: rgb(41, 75, 117);
 
 }
 .Event h3{
@@ -241,7 +241,7 @@ main{
  border: 1px solid #bbb;
  padding-left: 10px;
 	padding-right: 10px;
-	background-color: blueviolet;
+	background-color: rgb(41, 75, 117);
 	
 }
 .Weather h2{
@@ -274,6 +274,7 @@ main{
 	font-size: 13px;
 	font-weight: bold;
 	padding-left: 10px;
+	color:white;
 }
 
 
@@ -572,21 +573,17 @@ section {
 }
 
 
-section h3 {
+.grid section h3 {
 	font-size: 1.25rem;
 }
-section h4 {
+.grid section h4 {
 	font-size: 1rem;
 }
-section h5 {
+.grid section h5 {
 	font-size: 1rem;
 }
 
-.mini img {
-	max-width: 125px;
-	height: auto;
-	
-}
+
 /*Discover page*/
 .discover{
 	color:rgb(41, 75, 117);
@@ -673,6 +670,7 @@ footer{
 	padding-top: 10px;
 
 }
+
 .mini{
 	grid-row:1/2;
 }
@@ -702,3 +700,9 @@ footer{
 footer h2, h3, p{
 	margin:0;
 }
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
