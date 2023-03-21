@@ -175,6 +175,9 @@ nav{
           grid-column: 1/2;
           grid-row:2/3;
           margin:0;
+          display:grid;
+          grid-template-columns: 1fr 1fr;
+          grid-template-rows: .5fr 1fr .5fr;
           
       }
       .Weather h2{
@@ -182,33 +185,54 @@ nav{
          color:white;
          padding-bottom:3px;
          padding-top: 3px;
-         font-size: 18px;
+         font-size: 20px;
+         grid-column: 1/3;
+         grid-row: 1/2;
       }
       .Weather h1{
          text-align: center;
          color:rgb(255, 174, 0);
-         font-size: 18px;
+         padding-top:15px;
+         font-size: 25px;
+         grid-column:2/3;
+         grid-row: 2/3;
          
       }
-      .Weather h3{
-         text-align: center;
-         font-size:15px;
-         color: white;
-         border-bottom: 2px solid;
-      }
+      
+     
       .Weather img{
          display:block;
-         max-width: 20%;
-         max-height: 20%;
+         max-width: 45%;
+         max-height: 45%;
          margin-right: auto;
          margin-left:auto;
+         
       }
       .Weather p{
-         padding-top: 5px;
-         font-size: 10px;
+         padding-top: 0px;
+         font-size: 13px;
          font-weight: bold;
          padding-left: 10px;
+         
       }   
+      .Weather figure img{
+         grid-column: 1/2;
+         grid-row:2/3;
+      }
+      .Weather figure figcaption{
+         font-size:15px;
+        
+      }
+      .Weather #wind-chill{
+         grid-column:1/3;
+         grid-row:4/5;
+      }
+      .Weather #wind-speed{
+         grid-column:1/3;
+         grid-row:5/6;
+         
+      }
+      
   .Join{
           grid-column: 1/2;
           grid-row:3/4;
