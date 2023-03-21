@@ -48,10 +48,15 @@
     grid-template-rows: 1.5fr 1fr 1fr 1fr 1fr;
     
      }
-     .Hero h2{ 
+     .Hero h2 .medium{ 
         top:15px;
         left: 175px;
-    }    
+    }  
+    .Hero h2 .small{
+        font-size: 0px;
+       
+     }
+   
 .Hero .btn{
     margin-right:105px;
 }

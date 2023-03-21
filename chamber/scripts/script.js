@@ -30,7 +30,7 @@ if (new Date().getDay() == 1){
 }else{
     document.querySelector("#ann").style.display ="none";
 }
-
+ 
 
 
 

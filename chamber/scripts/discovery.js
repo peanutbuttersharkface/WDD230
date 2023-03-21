@@ -58,4 +58,4 @@ numVisits++;
 
 localStorage.setItem("visits-ls", numVisits);
 localStorage.setItem('lastVisitTime', currTime);
-todayDisplay.textContent = Date.now();
+//todayDisplay.textContent = Date.now();

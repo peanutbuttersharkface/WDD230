@@ -181,6 +181,7 @@ main{
 	position:relative;
 	
 }
+
  .Hero img{
 	display:block;
 	max-width: 100%;
@@ -189,8 +190,20 @@ main{
 	margin-left:auto;
 	
 }
-.Hero h2{
-	font-size: 20px;
+
+picture.meeting{
+   display: block;
+   width: 96%;
+   margin: 0 2%;
+   
+}
+.Hero picture.meeting img{
+   width: 100%;
+}
+
+
+.Hero h2 {
+	font-size: 25px;
 	position: absolute;
 	top:15px;
 	left: 16px;
