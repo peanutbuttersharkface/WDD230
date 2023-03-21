@@ -634,44 +634,22 @@ section {
 .disTitle{
 	text-align: center;
 	color:rgb(41, 75, 117);
-	border-bottom: 5px double;
+	border-bottom: 2px solid;
 	margin-bottom: 10px;
 }
-.discover .one img{
-    margin-top:10px;
-   margin-left: 20%;
-   max-width:118%;
-   border: 5px;
-   border-style:double;
-} 
-.discover .two img{
-    margin-top:10px;
-    margin-left: 20%;
-   max-width:118%;
-   border: 5px;
-   border-style:double;
-}
-.discover .three img{
-    margin-top:10px;
-    margin-left: 20%;
-    max-width:118%;
-    border: 5px;
-    border-style:double;
-} 
-.discover .four img{
-    margin-top:10px;
-    margin-left: 20%;
-    max-width:118%;
-    border: 5px;
-    border-style:double;
-} 
+.discover .one img, .discover .two img,
+.discover .three img, .discover .four img,
 .discover .five img{
-    margin-top:10px;
-    margin-left: 20%;
-    max-width:118%;
-    border: 5px;
-    border-style:double;
-}
+
+	border: 1px solid #bbb;
+	box-shadow: 0 0 15px rgba(74, 74, 74, 0.9);
+	border-radius: 5px;
+
+   
+} 
+
+
+
 .discover .weiserInfo p{
     grid-column:2/3;
     grid-row: 1/2;
@@ -682,8 +660,10 @@ section {
     border: 5px;
     padding-top:10px;
     padding-bottom: 10px;
-    border-style:double;
-    background-color: rgb(244, 240, 235);
+    border: 1px solid #bbb;
+	box-shadow: 0 0 15px rgba(74, 74, 74, 0.9);
+	border-radius: 5px;
+    background-color: rgb(232, 231, 231);;
 }
 .discover .hover:hover {box-shadow: 0 0 50px #333;}
 
