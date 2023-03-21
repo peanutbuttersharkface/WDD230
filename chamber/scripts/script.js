@@ -23,11 +23,14 @@ const hambutton = document.querySelector('#menu');
 hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
 // annoucement bar
 
+if (new Date().getDay() == 1){
+    document.querySelector("#ann").style.display ="block";
+}else if (new Date().getDay() == 2){
+    document.querySelector("#ann").style.display ="block";
+}else{
+    document.querySelector("#ann").style.display ="none";
+}
 
 
-const ann = document.getElementById("ann");
-
-if (day === "Monday" || day === "Tuesday");
-ann.style.display = "block";
 
 

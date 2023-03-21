@@ -31,7 +31,7 @@ async function getDirectoryData() {
     directory.forEach((direct) => {
       // Create elements to add to the div.cards element
       let card = document.createElement('section');
-      let h2 = document.createElement('h2');
+      //let h2 = document.createElement('h2');
       let portrait = document.createElement('img');
       let h3 = document.createElement('h3');
       let h4 = document.createElement('h4');
@@ -40,7 +40,7 @@ async function getDirectoryData() {
      // h2.textContent = `${direct.name}`;
       h3.textContent = `${direct.address}`;
       h4.textContent = `${direct.phonenumber}`;
-      h2.textContent = `${direct.name}`;
+     // h2.textContent = `${direct.name}`;
       h5.textContent = `${direct.website}`;  
   
       // Build the image portrait by setting all the relevant attribute
@@ -52,7 +52,7 @@ async function getDirectoryData() {
   
       // Append the section(card) with the created elements
      // card.appendChild(h2);
-      card.appendChild(h2);
+      //card.appendChild(h2);
       card.appendChild(portrait);
       card.appendChild(h3);
       card.appendChild(h4);
