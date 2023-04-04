@@ -1,12 +1,12 @@
-let dropdown = document.getElementById('fruit2');
+let dropdown2 = document.getElementById('fruit2');
 
-dropdown.length = 0;
+dropdown2.length = 0;
 
 let defaultOption = document.createElement('option');
 defaultOption.text = 'Choice';
 
-dropdown.add(defaultOption);
-dropdown.selectedIndex = 0;
+dropdown2.add(defaultOption);
+dropdown2.selectedIndex = 0;
 
 const url = 'https://brotherblazzard.github.io/canvas-content/fruit.json';
 
