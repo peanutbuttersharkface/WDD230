@@ -15,7 +15,7 @@
 <body>
     <header>
         <div class="container">
-          <div class ="logo">
+          <div class ="logo" onclick="window.location.href='index.html'">
               <picture>
                   <img src="images/fruityBlueLogo.png" alt=" Logo">
               </picture>
@@ -66,21 +66,9 @@
                       
                     </select>
                     <br>
-                    <label for="fruit2">Choose your second fruit:</label><br>
-                    <select name="fruit2" id="fruit2">
-                        <option value="none">None</option>
-                        <option value="straw">Strawberries</option>
-                        <option value="banana">Banana</option>
-                        <option value="rasp">Raspberry</option>
-                        <option value="peach">Peach</option>
-                        <option value="blue">Blueberries</option>
-                        <option value="water">Watermellon</option>
-                        <option value="orange">Orange</option>
-                        <option value="grapes">Grapes</option>
-                        <option value="lemon">Lemon</option>
-                        <option value="Lime">Lime</option>
-                        <option value="cherry">Cherry</option>
-                        <option value="apple">Apple</option>
+                    <label for="second">Choose your second fruit:</label><br>
+                    <select id="fruit2" name="fruits2" >
+                       
                     </select><br>
                     <label for="fruit3">Choose your third fruit:</label><br>
                     <select name="fruit3" id="fruit3">
@@ -160,5 +148,6 @@
             <script src="scripts/weather.js"></script> 
             <script src="scripts/drinks.js"></script>   
         <script src="scripts/fruit.js"></script>  
+        <script src="scripts/fruit2.js"></script>
 </body>
 </html>
