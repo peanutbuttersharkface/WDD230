@@ -61,7 +61,13 @@
     
     --d: 75%;
 }
+.order .tocenter .btn{
+padding: 12px 45%;
+}	
+.food{
 
+    max-height:400px;
+}
 footer{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;

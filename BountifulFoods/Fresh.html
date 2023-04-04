@@ -19,8 +19,7 @@
               <picture>
                   <img src="images/fruityBlueLogo.png" alt=" Logo">
               </picture>
-              <h2>135 Beach Ave.</h2>
-              <h2>Carlsbad California</h2>
+              
           </div>
             
               <nav> 
@@ -37,7 +36,7 @@
                   <img  class="face" src="images/Facebook.png" alt="facebook">
               </div>
               <div class="twitter">
-                  <img  class="twitter" src="images/Twitter.jpg" alt="Twitter">
+                  <img  class="twitter" src="images/twitter.png" alt="Twitter">
               </div>  
               <div class="instagram">
                 <img class="instagram" src="images/Instagramlogo.png" alt="instagram">
@@ -45,6 +44,121 @@
             </div>
 
           
-        </header>    
+        </header>  
+        
+        <main>
+            <div class="mainForm">
+            <h1 class="formTitle">Start Drink Order</h1>
+              <form method="get" action="thankyou.html">
+                <fieldset>
+                    <legend>Information</legend>
+                        <Label class="top">First Name* <input type="text" name="fname" required></Label>
+                        <Label class="top">Cell Phone* <input type="tel" name="phone" placeholder="1235551234" required></Label>
+                        <Label class="top">Email* <input type="email" name="email" placeholder="youremail@gmail.com" required></Label>
+                       
+        
+                </fieldset>
+        
+                <fieldset>
+                    <legend>Choose Your Mix</legend>
+                    <label for="first">Choose your first fruit:</label><br>
+                    <select id="fruit1" name="fruits1" >
+                      
+                    </select>
+                    <br>
+                    <label for="fruit2">Choose your second fruit:</label><br>
+                    <select name="fruit2" id="fruit2">
+                        <option value="none">None</option>
+                        <option value="straw">Strawberries</option>
+                        <option value="banana">Banana</option>
+                        <option value="rasp">Raspberry</option>
+                        <option value="peach">Peach</option>
+                        <option value="blue">Blueberries</option>
+                        <option value="water">Watermellon</option>
+                        <option value="orange">Orange</option>
+                        <option value="grapes">Grapes</option>
+                        <option value="lemon">Lemon</option>
+                        <option value="Lime">Lime</option>
+                        <option value="cherry">Cherry</option>
+                        <option value="apple">Apple</option>
+                    </select><br>
+                    <label for="fruit3">Choose your third fruit:</label><br>
+                    <select name="fruit3" id="fruit3">
+                        <option value="none">None</option>
+                        <option value="straw">Strawberries</option>
+                        <option value="banana">Banana</option>
+                        <option value="rasp">Raspberry</option>
+                        <option value="peach">Peach</option>
+                        <option value="blue">Blueberries</option>
+                        <option value="water">Watermellon</option>
+                        <option value="orange">Orange</option>
+                        <option value="grapes">Grapes</option>
+                        <option value="lemon">Lemon</option>
+                        <option value="Lime">Lime</option>
+                        <option value="cherry">Cherry</option>
+                        <option value="apple">Apple</option>
+                        <option value="pine">Pineapple</option>
+                    </select>
+                    <br>
+                    <label for="green">Choose a green:</label><br>
+                    <select name="green" id="green">
+                        <option value="none">None</option>
+                        <option value="Kale">Kale</option>
+                        <option value="Spinach">Spinach</option>
+                        <option value="sprouts">Sprouts</option>
+                        <option value="avacado">Avacado</option>
+                    </select>
+                    <br>
+                    <label for="protein">Choose your protein:</label><br>
+                    <select name="protein" id="protein">
+                        <option value="none">None</option>
+                        <option value="whay">Whay</option>
+                        <option value="Hemp">Hemp</option>
+                        <option value="pea">Pea</option>
+                        <option value="peanut">Peanut Butter</option>
+                        <option value="almondbut">Almond Butter</option>
+                        
+                    </select>
+                    <br>
+                    <label for="liquid">Choose your liquid:</label><br>
+                    <select name="liquid" id="liquid">
+                        <option value="water">Water</option>
+                        <option value="lemonaid">Lemonaid</option>
+                        <option value="Cow">Cow's Milk</option>
+                        <option value="almond">Almond Milk Unsweetened</option>
+                        <option value="oat">Oat Milk</option>
+                        <option value="oj">Orange Juice</option>
+                        <option value="cream">Cream</option>
+                        <option value="sweet">Sweet Cream</option>  
+                    </select>
+                    <br>
+                    <label for="other">Choose your toppings:</label><br>
+                    <select name="other" id="other">
+                        <option value="whip">Whipped Cream</option>
+                        <option value="Coc">Coconut</option>
+                        <option value="berry">Berry Syrup</option>
+                        <option value="choc">Chocolate Shavings</option>
+                        <option value="cher">Cherry Syrup</option>  
+                    </select>
+                    <br>
+                </fieldset>
+                <fieldset>
+                    <legend>Special Instructions</legend>
+                        <label><textarea class="top"  name="instructions" cols="60" rows="5" ></textarea> </label>
+        
+                </fieldset>
+                
+                <input type="submit" value="Submit Order" class="submitBtn">
+        
+              </form>  
+            </div>
+              <input type="hidden" name="datefill" id="lastUpdated2">    
+            
+          
+            </main>
+            <script src="scripts/script.js"></script> 
+            <script src="scripts/weather.js"></script> 
+            <script src="scripts/drinks.js"></script>   
+        <script src="scripts/fruit.js"></script>  
 </body>
 </html>
