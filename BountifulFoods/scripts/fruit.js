@@ -1,4 +1,3 @@
-// fruit choice 1
 let dropdown = document.getElementById('fruit1');
 
 dropdown.length = 0;
@@ -9,7 +8,6 @@ defaultOption.text = 'Choice';
 dropdown.add(defaultOption);
 dropdown.selectedIndex = 0;
 
-//fruit choice 2
 let dropdown2 = document.getElementById('fruit2');
 
 dropdown2.length = 0;
@@ -20,7 +18,6 @@ defaultOption2.text = 'Choice';
 dropdown2.add(defaultOption2);
 dropdown2.selectedIndex = 0;
 
-//fruit choice 3
 let dropdown3 = document.getElementById('fruit3');
 
 dropdown3.length = 0;
@@ -49,10 +46,17 @@ fetch(url)
     	for (let i = 0; i < data.length; i++) {
           option = document.createElement('option');
       	  option.text = data[i].name;
+        option2 =
+          document.createElement('option');
+        option2.text = data[i].name;
+        
+            option3 =
+          document.createElement('option');
+        option3.text = data[i].name;
       	 // option.value = data[i].abbreviation;
       	  dropdown.add(option);
-          dropdown2.add(option);
-          dropdown3.add(option);
+          dropdown2.add(option2);
+          dropdown3.add(option3);
     	}    
       });  
     }  
