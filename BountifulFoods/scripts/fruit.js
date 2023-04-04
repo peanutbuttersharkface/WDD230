@@ -10,7 +10,7 @@ dropdown.selectedIndex = 0;
 
 let dropdown2 = document.getElementById('fruit2');
 
-dropdown2.length = 0;
+dropdown2.length= 0;
 
 let defaultOption2 = document.createElement('option');
 defaultOption2.text = 'Choice';
