@@ -2,10 +2,10 @@ let dropdown2 = document.getElementById('fruit2');
 
 dropdown2.length = 0;
 
-let defaultOption = document.createElement('option');
-defaultOption.text = 'Choice';
+let defaultOption2 = document.createElement('option');
+defaultOption2.text = 'Choice';
 
-dropdown2.add(defaultOption);
+dropdown2.add(defaultOption2);
 dropdown2.selectedIndex = 0;
 
 const url = 'https://brotherblazzard.github.io/canvas-content/fruit.json';
@@ -27,7 +27,7 @@ fetch(url)
           option = document.createElement('option');
       	  option.text = data[i].name;
       	 // option.value = data[i].abbreviation;
-      	  dropdown.add(option);
+      	  dropdown2.add(option);
     	}    
       });  
     }  
