@@ -9,21 +9,19 @@ dropdown.add(defaultOption);
 dropdown.selectedIndex = 0;
 
 let dropdown2 = document.getElementById('fruit2');
-
-dropdown2.length= 0;
+ dropdown2.length = 0;
 
 let defaultOption2 = document.createElement('option');
-defaultOption2.text = 'Choice';
+defaultOption2.text ='Choice';
 
 dropdown2.add(defaultOption2);
 dropdown2.selectedIndex = 0;
 
 let dropdown3 = document.getElementById('fruit3');
-
-dropdown3.length = 0;
+ dropdown3.length = 0;
 
 let defaultOption3 = document.createElement('option');
-defaultOption3.text = 'Choice';
+defaultOption3.text ='Choice';
 
 dropdown3.add(defaultOption3);
 dropdown3.selectedIndex = 0;
@@ -46,21 +44,27 @@ fetch(url)
     	for (let i = 0; i < data.length; i++) {
           option = document.createElement('option');
       	  option.text = data[i].name;
-        option2 =
-          document.createElement('option');
-        option2.text = data[i].name;
-        
-            option3 =
-          document.createElement('option');
-        option3.text = data[i].name;
-      	 // option.value = data[i].abbreviation;
       	  dropdown.add(option);
+       	}    
+    
+    	for (let i = 0; i < data.length; i++) {
+          option2 =     document.createElement('option');
+      	  option2.text = data[i].name; 
+        
           dropdown2.add(option2);
+          
+    	} 
+       for (let i = 0; i < data.length; i++) {
+          option3 =     document.createElement('option');
+      	  option3.text = data[i].name; 
+        
           dropdown3.add(option3);
-    	}    
+      }
       });  
     }  
   )  
   .catch(function(err) {  
     console.error('Fetch Error -', err);  
   });
+
+ 
