@@ -55,27 +55,29 @@
                         <Label class="top">First Name* <input type="text" name="fname" required></Label>
                         <Label class="top">Cell Phone* <input type="tel" name="phone" placeholder="1235551234" required></Label>
                         <Label class="top">Email* <input type="email" name="email" placeholder="youremail@gmail.com" required></Label>
-                       
+                       <label class="top">Date*<input type="date" name="date" required> </label>
         
                 </fieldset>
         
                 <fieldset>
                     <legend>Choose Your Mix</legend>
-                    <label for="first">Choose your first fruit:</label><br>
-                    <select id="fruit1" name="fruits1" >
+                    <div class="dropdown_categories">
+                        <div class="dropdown">
+                    <label for="first">First Fruit:</label><br>
+                    <select  id="fruit1" name="fruits1" >
                       
                     </select>
                     <br>
-                    <label for="second">Choose your second fruit:</label><br>
-                    <select id="fruit2" name="fruits2" >
+                    <label for="second">Second Fruit:</label><br>
+                    <select  id="fruit2" name="fruits2" >
                        
                     </select><br>
-                    <label for="fruit3">Choose your third fruit:</label><br>
+                    <label for="fruit3">Third Fruit:</label><br>
                     <select name="fruit3" id="fruit3">
                        
                     </select>
                     <br>
-                    <label for="green">Choose a green:</label><br>
+                    <label for="green">Choose a Green:</label><br>
                     <select name="green" id="green">
                         <option value="none">None</option>
                         <option value="Kale">Kale</option>
@@ -84,7 +86,7 @@
                         <option value="avacado">Avacado</option>
                     </select>
                     <br>
-                    <label for="protein">Choose your protein:</label><br>
+                    <label for="protein">Choose a Protein:</label><br>
                     <select name="protein" id="protein">
                         <option value="none">None</option>
                         <option value="whay">Whay</option>
@@ -95,8 +97,9 @@
                         
                     </select>
                     <br>
-                    <label for="liquid">Choose your liquid:</label><br>
+                    <label for="liquid">Choose a Liquid:</label><br>
                     <select name="liquid" id="liquid">
+
                         <option value="water">Water</option>
                         <option value="lemonaid">Lemonaid</option>
                         <option value="Cow">Cow's Milk</option>
@@ -107,14 +110,17 @@
                         <option value="sweet">Sweet Cream</option>  
                     </select>
                     <br>
-                    <label for="other">Choose your toppings:</label><br>
+                    <label for="other">Choose a Topping:</label><br>
                     <select name="other" id="other">
+                        <option value="none">None</option>
                         <option value="whip">Whipped Cream</option>
                         <option value="Coc">Coconut</option>
                         <option value="berry">Berry Syrup</option>
                         <option value="choc">Chocolate Shavings</option>
                         <option value="cher">Cherry Syrup</option>  
                     </select>
+                </div>
+                </div>
                     <br>
                 </fieldset>
                 <fieldset>

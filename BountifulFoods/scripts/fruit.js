@@ -66,6 +66,7 @@ fetch(url)
   .catch(function(err) {  
     console.error('Fetch Error -', err);  
   });
+
   function ShowAndHide(){
     var x = document.getElementById('ready');
     if(x.style.display =='none'){
@@ -74,12 +75,21 @@ fetch(url)
       x.style.display='none';
     }
   }
-  var count = 0;
-  var button = document.getElementById("submitBtn");
-  var countDisplay = document.getElementById("count");
-  button.onclick = function(){
-    count++;
-    countDisplay.innerHTML = count;}
+  //var count = 0;
+  //var button = document.getElementById("submitBtn");
+  //var countDisplay = document.getElementById("count");
+  //button.onclick = function(){
+  //  count++;
+    //countDisplay.innerHTML = count;}
   
+    // summary of order information
+
+   // var els = new Array();
+   // $(".mainForm").each(function(){
+    //  els.push ({
+     //   label: $(this).find('label').text(),
+       // value: $(this).find('input').val()
+      //});
+    //});
 
  

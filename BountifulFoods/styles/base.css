@@ -5,6 +5,7 @@
 	box-sizing: border-box;
 	
 	
+	
 }
 html {
 	line-height: 1.15; /* 1 */
@@ -28,6 +29,7 @@ section {
     font-size: 16px;
     font-family: 'Baloo Tamma 2', cursive;
 	background-color:#f5f5f5;
+	
 }
 
   /*Header*/
@@ -442,9 +444,9 @@ form fieldset{
     padding: .5rem 2%;
 }
 form legend{
-    color:#7d3bff;
+    color:#fe01cc;
     margin: 0 1rem;
-    padding:0 .5rem
+    padding:0 1.5rem
 }
 
 form label.top, form div{
@@ -468,13 +470,6 @@ form label textarea{
     background-color: rgba(0,0,0,0.1);
 
 }
-
-form lab.sbs{
-    display:block;
-    padding: .75rem 0;
-    color: #555;
-}
-
 form button{
     border: none;
     background-color: #7d3bff;
@@ -491,30 +486,53 @@ form label.top input:required{
 }
 
 form label.top input:required:valid{
-    border-left: green solid 6px;
+    border-left: #fe01cc solid 6px;
 }
 .formTitle {
  color:#fe01cc;
 }
-.formSubTitle{
-	color: #7d3bff
-}
-.ContactInfo{
-	color: #7d3bff
-}
-.ContactInfo h1{
-	border-bottom: 2px solid;
-	margin-bottom: 10px;
-	font-size: 20px;
-}
-.ContactInfo h2{
-	font-size: 15px;
-	padding-bottom:5px;
-}
+
+
 label{
-	font-size: 1rem;
-	color:#7d3bff;
+	font-size: 1em;
+	color:#fe01cc;
 }
+.dropdown_categories{
+	font-size: 13px;
+	padding: 10px 8px 10px 14px;
+	overflow: hidden;
+	position: relative;
+  }
+  
+  .dropdown_categories .dropdown{
+	width: 120%;
+	
+  }
+  
+  .dropdown_categories .dropdown select{
+	-webkit-appearance: none;
+	background: transparent;
+	line-height: 1;
+	border: 1px solid #00FAFD;
+	border-left:5px solid #ffe43b;
+	padding: .75rem;
+	
+	width: 100%;
+	max-width: 20rem;
+	border-radius: 4px;
+	position: relative;
+	
+	font-size: 1em;
+	background-color: rgba(0,0,0,0.1);
+	color:#7d3bff;
+    display: block;
+    
+   
+   
+  
+   
+    
+  }
 /*order submission*/
 .ready h2{
 	margin-top:30px;
@@ -531,13 +549,13 @@ h1{
 	color:#fe01cc;
 	font-size: 35px;
 }
-img{
+.history img{
 	float: left;
 	margin: 10px;
 }
 .history p{
 	text-align: justify;
-	font-size: 25px;
+	font-size: 20px;
 }
 .map{
 	padding-bottom: 50%;
