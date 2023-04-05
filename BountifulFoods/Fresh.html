@@ -49,7 +49,7 @@
         <main>
             <div class="mainForm">
             <h1 class="formTitle">Start Drink Order</h1>
-              <form method="get" action="thankyou.html">
+              <form method="get">
                 <fieldset>
                     <legend>Information</legend>
                         <Label class="top">First Name* <input type="text" name="fname" required></Label>
@@ -123,18 +123,22 @@
         
                 </fieldset>
                 
-                <input type="submit" value="Submit Order" class="submitBtn">
+                <button onclick="ShowAndHide()" type="submit" value="Submit Order" class="submitBtn" >Submit Order</button>
         
               </form>  
             </div>
-              <input type="hidden" name="datefill" id="lastUpdated2">    
+              <input type="hidden" name="datefill" id="lastUpdated2">  
+
+              <div id="ready" style="display:none">
+                <h2>We have your Order!</h2>
+                <p>Ready in 10 minutes.</p>
             
-          
+            </div>
             </main>
             
                
             <script src="scripts/fruit.js"></script> 
-           <!--<script src="scripts/fruit2.js"></script>--> 
+           
             
 </body>
 </html>

@@ -66,5 +66,20 @@ fetch(url)
   .catch(function(err) {  
     console.error('Fetch Error -', err);  
   });
+  function ShowAndHide(){
+    var x = document.getElementById('ready');
+    if(x.style.display =='none'){
+       x.style.display ='block';
+    }else{
+      x.style.display='none';
+    }
+  }
+  var count = 0;
+  var button = document.getElementById("submitBtn");
+  var countDisplay = document.getElementById("count");
+  button.onclick = function(){
+    count++;
+    countDisplay.innerHTML = count;}
+  
 
  

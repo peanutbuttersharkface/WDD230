@@ -34,50 +34,8 @@
         max-width: 64rem;
         margin:auto;
     } 
+   
     /* footer*/
-footer{
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr .25fr;
- }
- .mini{
-    grid-column: 1/2;
-    grid-row:1/2;
- }
- .address{
-    grid-column:2/4;
-    grid-row:1/2;
- }
- .info{
-    grid-column: 4/5;
-    grid-row:1/2;
-    padding-top: 5px;
- }
- .low{
-    grid-column:1/5;
-    grid-row:2/3;
-    display:grid;
-    grid-template-columns: .35fr .5fr .40fr .35fr .80fr 1fr;
-    grid-template-rows: 1fr ;
- }
- .year{
-    grid-column: 2/3;
-    grid-row:1/2;
-    padding-left: 5px;
- }
- .name{
-    grid-column:3/4;
-    grid-row:1/2;
- }
- .project{
-    grid-column:4/5;
-    grid-row:1/2;
- }
- .mod{
-    grid-column:5/6;
-    grid-row:1/2;
-    padding-left: 10px;
- }
 
 
 }
