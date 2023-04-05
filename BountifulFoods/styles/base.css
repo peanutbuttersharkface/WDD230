@@ -221,7 +221,7 @@ max-height:300px;
 }
 .food img{
 	max-width: 100%;
-	max-height: auto;
+	height: auto;
 }
 .food h3{
 	justify-self:center;
