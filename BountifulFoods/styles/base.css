@@ -201,13 +201,12 @@ main{
 }
 .food{
 background-color: #ffe43b;	
-
  grid-row: 1/2;
  padding-left: 10px;
  padding-right: 10px;
  display:grid;
  grid-template-columns: 1fr;
- grid-template-rows: .25 1fr .18fr 1fr .18fr 1fr .18fr;
+ grid-template-rows: .25fr 1fr .18fr 1fr .18fr 1fr .18fr;
 	
 }
 .food h2{

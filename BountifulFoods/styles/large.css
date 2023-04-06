@@ -34,6 +34,15 @@
         max-width: 64rem;
         margin:auto;
     } 
+    .home{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: .5 .1fr .45fr .55fr .38fr .20fr ;
+        
+     }
+     .food{
+        max-height: 400px;
+     }
     .weather{
         display:grid;
         grid-template-rows: .25fr .75fr .75fr ;
