@@ -16,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     
 </head>
-<body>
+<body  onload="DefaultScreen()">
     <header>
         <div class="container">
           <div class ="logo">
@@ -63,60 +63,63 @@
                  Menu
                 </h2>
                 <picture class="pine">
-                <img  src="images/PineappleStraw.jpg" alt="Pineapple Starwberry">
+                <img  src="https://via.placeholder.com/200x300.png?text=Loading" data-src="images/PineappleStraw.jpg" alt="Pineapple Starwberry">
                  </picture>  
-                 <picture class="peach">
-                <img src="images/everyfruitSmoothy.jpg" alt="Every Fruit ">
+                 <picture class="peach">  
+                <img src="https://via.placeholder.com/200x300.png?text=Loading" data-src="images/everyfruitSmoothy.jpg" alt="Every Fruit ">
                 </picture> 
                 <picture class="rasp">
-                <img src="images/raspberrycream.jpg" alt="Raspberry Cream">
+                <img src="https://via.placeholder.com/200x300.png?text=Loading" data-src="images/raspberrycream.jpg" alt="Raspberry Cream">
                 </picture>
-                <h3>Lazy Pine</h3>
-                <h3>Garden of Eden</h3>
-                <h3>Raz-a-ma-taz</h3>
+                <h3 class="wPine">Lazy Pine</h3>
+                <h3 class="wPeach">Garden of Eden</h3>
+                <h3 class="wRasp">Raz-a-ma-taz</h3>
             </section>
             <section class="Coast">
                 <h2>California Coast</h2>
                 <p>Come get a smoothy and take it to one of the beautiful beaches in Carlsbad. Our shop and each food truck has infromation about the beaches in the area but, here is a run down of a few in Carlsbad.</p><br>
-                <img class="coast1" src="images/aquacoast.jpg" alt="aquacoast"><br>
+                <img class="coast1" src="https://via.placeholder.com/300x200.png?text=Loading" data-src="images/aquacoast.jpg" alt="aquacoast"><br>
                  <h3>Tamarack Beach</h3>
                  <p> Also known as Carlsbad State Beach is a great beach for walking and swimming. There are restrooms and lifeguards all summer. </p><br>
-                <img class="coast2" src="images/rockycoast.jpg" alt="rockycoast"><br>
+                <img class="coast2" src="https://via.placeholder.com/300x200.png?text=Loading" data-src="images/rockycoast.jpg" alt="rockycoast"><br>
                 <h3>Carlsbad City Beach</h3><br>
                 <p>If you want to go surfing or watch them, this is the beach for you. Surfing is only May - October so keep that in mind. Lifewuards are on duty during the summer so go ahead and take a dip while you are there.</p><br>
             </section>
-            <section class="weather">
+            <section  class="weather">
                 <h2>Weather Forecast</h2>
-                <div class="day1">
-                <h1><strong><span id="current-temp"></span></strong> &deg;F</h1>
-                <figure>
-                <img src="" alt="weather-icon" id="weather-icon">
-                <figcaption></figcaption>
-            </figure>
-                 
-            </div>
-            
-               <div class="day2" id="forecast">
-                <h1><strong><span id="current-temp2"></span></strong> &deg;F</h1>
-                <figure>
-                <img src="" alt="weather-icon" id="weather-icon2">
-                <figcaption></figcaption>
-            </figure>
-               </div>
-               <div class="day3">
-                <h1><strong><span id="current-temp3"></span></strong> &deg;F</h1>
-                <figure>
-                <img src="" alt="weather-icon" id="weather-icon3">
-                <figcaption></figcaption>
-            </figure>
-               </div>
-               <div class="day4">
-                <h1><strong><span id="current-temp4"></span></strong> &deg;F</h1>
-                <figure>
-                <img src="" alt="weather-icon" id="weather-icon4">
-                <figcaption></figcaption>
-            </figure>
-               </div>
+                <div class="topWet">
+                <p hidden id="inputContainer">City: <input type="text" id="cityInput"></p>
+                <button hidden type="button" onclick="GetInfo()">Click Me</button>
+                 <h3 hidden id="cityName">--Carlsbad--</h3> 
+                </div>
+                 <div id="weatherContainer">
+                    <div id="iconsContainer">
+                     <div class="icons">  
+                        <p class="weather2" id="day1"></p>
+                        <div class="imageDay"><img src="dots.png" class="imgClass" id="img1"> </div>
+                        <p class="minValues" id="day1Min">Loading.....</p>
+                        <p class="maxValues" id="day1Max">Loading.....</p>
+                    </div>
+                    <div class = "icons">
+                        <p class="weather2" id="day2"></p>
+                        <div class="imageDay"><img src="dots.png" class="imgClass" id="img2"></div>
+                        <p class="minValues" id="day2Min">Loading...</p>
+                        <p class="maxValues" id="day2Max">Loading...</p>
+                    </div>
+                    <div class = "icons">
+                        <p class="weather2" id="day3"></p>
+                        <div class="imageDay"><img src="dots.png" class="imgClass" id="img3"></div>
+                        <p class="minValues" id="day3Min">Loading...</p>
+                        <p class="maxValues" id="day3Max">Loading...</p>
+                    </div>
+                    <div class = "icons">
+                        <p class="weather2" id="day4"></p>
+                        <div class="imageDay"><img src="dots.png" class="imgClass" id="img4"></div>
+                        <p class="minValues" id="day4Min">Loading...</p>
+                        <p class="maxValues" id="day4Max">Loading...</p>
+                    </div>
+                </div> 
+                </div>
             
             </section>
             <section class="count">
@@ -166,5 +169,6 @@
       <script src="scripts/weather.js"></script> 
       <script src="scripts/drinks.js"></script>
       <script src="scripts/fruit.js"></script>
+      <script src="scripts/lazy.js"></script>
 </body>
 </html>
