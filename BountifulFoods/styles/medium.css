@@ -64,10 +64,104 @@
 .order .tocenter .btn{
 padding: 12px 45%;
 }	
+.home{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: .25fr .1fr .45fr .65fr .5fr .25fr .1fr .05fr ;
+	
+ }
 .food{
-
-    max-height:400px;
-}
-
-
+   
+     display:grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-template-rows: .25 1fr .18fr;
+        
+    }
+    .food h2{
+        grid-row: 1/2;
+        grid-column:1/4;
+        text-align: center;
+        color:#fe01cc;
+        padding-bottom: 5px;
+        padding-top: 15px;
+        font-size: 25px;
+        border-bottom: 5px solid #fe01cc;
+    }
+    .food img{
+        max-width: 100%;
+        height: auto;
+    }
+    .food h3{
+        justify-self:center;
+        color:#fe01cc;
+    }
+     .pine{
+        grid-row: 2/3;
+        grid-column:1/2;
+        justify-self:center;
+    }
+    .wPine{
+        grid-row:3/4;
+        grid-column:1/2;
+    }
+    .peach{
+        grid-row:2/3;
+        grid-column:2/3;
+        justify-self: center;
+    }
+    .wPeach{
+        grid-row:3/4;
+        grid-column:2/3;
+    }
+    .rasp{
+        grid-row:2/3;
+        grid-column:3/4;
+        justify-self:center;
+    }
+    .wRasp{
+        grid-row:3/4;
+        grid-column:3/4
+    }
+    .weather{
+        display:grid;
+        grid-template-rows: .25fr .75fr .75fr .75fr ;
+        grid-template-columns: 1fr; 
+       }
+    #weatherContainer{
+        grid-row:2/6;
+        height: 37.2rem;
+        width: 30rem;
+        border: 5px solid #00FAFD;   
+        border-radius: 10px;
+        align-items: center;
+    }
+    #iconsContainer{
+        margin: .3rem;
+        height: 36rem;
+        width: 28.7rem;    
+        border: 5px solid #fe01cc;    
+        border-radius: 5px;
+        justify-self: center;	
+    }
+    .icons{
+        display: inline-bock;
+        float: left;
+        height: 8rem;
+        width: 27.3rem;
+        margin: 7px;
+        border: 5px solid #ffe43b;
+        background-color: #00FAFD;
+        border-radius: 10px;
+    }
+    
+    .imageDay{
+        height: 50px;
+        width: 25%;
+    }
+    
+    .imgClass{
+        height: 60px;
+        width: 100%;
+    }
+    
 }
