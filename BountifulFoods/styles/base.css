@@ -172,7 +172,7 @@ main{
 .home{
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-rows: .5fr .15fr .45fr .45fr .5fr .5fr .15fr .1fr ;
+	grid-template-rows: .5fr .1fr .45fr .35fr .45fr .5fr .15fr;
 	font-family: 'Tilt Neon', cursive;
 	row-gap: 15px;	
 	border:none;

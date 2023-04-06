@@ -74,7 +74,7 @@ padding: 12px 45%;
    
      display:grid;
      grid-template-columns: 1fr 1fr 1fr;
-     grid-template-rows: .25 1fr .18fr;
+     grid-template-rows: .25fr 1fr .18fr;
         
     }
     .food h2{
